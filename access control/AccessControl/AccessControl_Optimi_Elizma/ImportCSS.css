@@ -1,0 +1,308 @@
+﻿/*This is the CSS page for styling elements on the Import webpage.*/
+
+/*The styling of the body with background colour of the webpag.*/
+body {
+    background-color: rgb(33, 29, 54);
+}
+
+/* Below is all the styles that is automatically generated once I created and modify the table on my design page. 
+    I did not delete them, however I have grouped them togeteher to make more space for existing CSS styles. 
+    Deleting the wrong one, can change the layout of my elements on my webpage.*/ 
+/*********************************************************************************************************************************************************************************************/
+.auto-style1 {
+    width: 100%;
+}
+
+.auto-style2 {
+    position: fixed;
+    bottom: 0cm; 
+    left: 3px;
+    right: -3px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: black;
+    background-color: #FFDB58;
+    padding: 10px;
+}
+
+.white-text {
+    color: white;
+}
+
+
+/*Below is all the styles for the top and bottom of my import webpage*/
+/*********************************************************************************************************************************************************************************************/
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFDB58;
+    color: #f7ae05;
+    padding: 10px;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.import_button {
+    background-color: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px 16px;
+    text-decoration: none; 
+    margin-left: auto; 
+    cursor: pointer;
+    border-radius: 10px; 
+}
+
+.Help_button {
+    background-color: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px 16px;
+    text-decoration: none; 
+    margin-left: 10px; 
+    cursor: pointer;
+    border-radius: 10px; 
+}
+
+.TroubleShoot_button {
+    background-color: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px 16px;
+    text-decoration: none; 
+    margin-left: 10px; 
+    cursor: pointer;
+    border-radius: 10px; /
+}
+
+    .Export-button:hover {
+        color: white;
+    }
+
+.logo img {
+    width: 200px; 
+    height: auto; 
+    cursor: pointer;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: black;
+    background-color: #FFDB58;
+    padding: 3px;
+}
+
+
+.bottom-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: black;
+    background-color: #FFDB58;
+    padding: 5px;
+    height: 12px;
+    line-height: 12px;
+}
+
+ 
+    .bottom-bar p {
+        margin: 0;
+        font-size: 15px;
+    }
+
+/*Below is all the styles for all user-interface elements on the webpage import and export such as the button and the dropdownlist*/
+/*********************************************************************************************************************************************************************************************/
+
+.FileUpload_Excel {
+    background-color: white;
+    border: 2px solid #FFDB58;
+    color: black;
+    font-weight: bold;
+    padding: 7px 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+    .FileUpload_Excel:hover {
+        background-color: #fdd402;
+    }
+
+.Btn_Load {
+    background-color: white;
+    border: 2px solid #FFDB58;
+    color: black;
+    font-weight: bold;
+    padding: 5px 6px; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block; 
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+    .Btn_Load:hover {
+        background-color: #fdd402; ]
+    }
+
+.Btn_Import {
+    background-color: white;
+    border: 2px solid #FFDB58;
+    color: black;
+    font-weight: bold;
+    padding: 5px 6px; 
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block; 
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+    .Btn_Import:hover {
+        background-color: #fdd402; 
+    }
+
+.Btn_ResfreshImport {
+    background-color: white;
+    border: 2px solid #FFDB58;
+    color: black;
+    font-weight: bold;
+    padding: 5px 6px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block; 
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+    #Btn_ResfreshImport:hover {
+        background-color: #fdd402;
+    }
+
+/*Below is all the styles for the Gridview_Employees gridview*/
+/*********************************************************************************************************************************************************************************************/
+
+.GridView_upload {
+    width: 100%;
+    overflow-y: auto; 
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: white;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+    #GridView_upload tr th,
+    #GridView_upload tr td {
+        border: 1px solid black;
+        padding: 8px; 
+    }
+
+    #GridView_upload th {
+        background-color: #fdd402;
+    }
+
+.center-gridview {
+    display: flex;
+    justify-content: center;
+}
+
+.scrollable-gridview_Import {
+    max-height: 300px;
+    overflow-y: auto; 
+    border: none;
+    padding: 5px;
+}
+
+
+#GridView_upload {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+    #GridView_upload th,
+    #GridView_upload td {
+        border: none;
+    }
+
+/*Below is all the CSS styles for al the labels and all the messages appearing on the webpage.*/
+/*********************************************************************************************************************************************************************************************/
+
+#Lbl_Success {
+    background-color: green;
+    border: 2px solid;
+    border-color: black;
+    color: white;
+    font-weight: bold;
+    padding: 5px 6px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block; 
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#Lbl_Error {
+    background-color: darkred;
+    border: 2px solid #FFDB58;
+    color: white;
+    font-weight: bold;
+    padding: 5px 6px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block; 
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

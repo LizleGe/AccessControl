@@ -1,0 +1,476 @@
+﻿/*This is the CSS page for styling elements on the Export webpage.*/
+
+/*The styling of the body with background colour of the webpag.*/
+body {
+    background-color: rgb(33, 29, 54);
+}
+
+/* Below is all the styles that is automatically generated once I created and modify the table on my design page. 
+    I did not delete them, however I have grouped them togeteher to make more space for existing CSS styles. 
+    Deleting the wrong one, can change the layout of my elements on my webpage. 
+*/
+/*********************************************************************************************************************************************************************************************/
+
+.auto-style1 {
+    width: 100%;
+}
+
+.auto-style2 {
+    width: 499px;
+}
+
+.auto-style3 {
+    width: 164px;
+}
+
+.auto-style4 {
+    width: 90px;
+}
+
+.auto-style5 {
+    width: 133px;
+}
+
+.auto-style6 {
+    width: 1491px;
+}
+
+.auto-style7, .auto-style8 {
+    width: 260px;
+}
+
+.auto-style9, .auto-style10, .auto-style11, .auto-style12 {
+    width: 124px;
+}
+
+.auto-style13 {
+    margin-left: 0px;
+}
+
+.auto-style14, .auto-style16, .auto-style17 {
+    width: 445px;
+}
+
+.auto-style18, .auto-style19, .auto-style20 {
+    width: 1309px;
+}
+
+.auto-style21, .auto-style25, .auto-style26, .auto-style27, .auto-style28, .auto-style29, .auto-style30, .auto-style31, .auto-style32, .auto-style33, .auto-style34, .auto-style36, .auto-style38, .auto-style39, .auto-style40, .auto-style41, .auto-style42, .auto-style43, .auto-style44, .auto-style49, .auto-style50, .auto-style51, .auto-style52, .auto-style62, .auto-style64, .auto-style66, .auto-style69, .auto-style71, .auto-style72, .auto-style73 {
+    width: 1803px;
+}
+
+.auto-style62, .auto-style64 {
+    height: 40px;
+}
+
+.auto-style66, .auto-style77, .auto-style76 {
+    height: 46px;
+}
+
+.auto-style80, .auto-style81, .auto-style82 {
+    height: 25px;
+}
+
+.auto-style74, .auto-style75, .auto-style78, .auto-style79, .auto-style85, .auto-style86, .auto-style89, .auto-style95, .auto-style96 {
+    height: auto;
+}
+
+.auto-style85 {
+    width: 413px;
+}
+
+.auto-style86 {
+    width: 274px;
+}
+
+.auto-style89 {
+    width: 393px;
+}
+
+/*Below is all the styles for the top and bottom of my export webpage*/
+/*********************************************************************************************************************************************************************************************/
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFDB58;
+    color: #f7ae05;
+    padding: 10px;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.import_button {
+    background-color: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin-left: auto;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.TroubleShoot_button {
+    background-color: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.FallbackLink {
+    display: none;
+}
+
+.TroubleShoot_button {
+    background-color: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin-left: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.import-button:hover {
+    color: white;
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+    cursor: pointer;
+}
+
+.right-section {
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: black;
+    background-color: #FFDB58;
+    padding: 3px;
+}
+
+
+.bottom-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: black;
+    background-color: #FFDB58;
+    padding: 5px;
+    height: 12px;
+    line-height: 12px;
+}
+
+
+    .bottom-bar p {
+        margin: 0;
+        font-size: 15px;
+    }
+
+/*Below is all the styles for all user-interface elements on the webpage import and export such as the button and the dropdownlist*/
+/*********************************************************************************************************************************************************************************************/
+
+#Btn_Search {
+    background-color: white;
+    border: 2px solid #FFDB58;
+    color: black;
+    font-weight: bold;
+    padding: 7px 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+    #Btn_Search:hover {
+        background-color: #fdd402;
+    }
+
+#Btn_employeeID {
+    background-color: white;
+    border: 2px solid #FFDB58;
+    color: black;
+    font-weight: bold;
+    padding: 5px 6px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+    #Btn_employeeID:hover {
+        background-color: #fdd402;
+    }
+
+
+#Btn_Refresh {
+    background-color: white;
+    border: 2px solid #FFDB58;
+    color: black;
+    font-weight: bold;
+    padding: 7px 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+    #Btn_Refresh:hover {
+        background-color: #fdd402;
+    }
+
+#Btn_Export {
+    background-color: white;
+    border: 2px solid #FFDB58;
+    color: black;
+    font-weight: bold;
+    padding: 7px 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+    #Btn_Export:hover {
+        background-color: #fdd402;
+    }
+
+#DropDownList_SelectOption {
+    background-color: white;
+    border: 3px solid #FFDB58;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 8px 16px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+}
+
+    #DropDownList_SelectOption:hover {
+        background-color: #fdd402;
+    }
+
+#TextBox_StartDate {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 4px 8px;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border: 3px solid #FFDB58;
+}
+
+
+#TextBox_EndDate {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 4px 8px;
+    color: black;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #FFDB58;
+}
+
+
+#TextBox_EmployeeID {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 4px 8px;
+    color: black;
+    font-size: 16px;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #FFDB58;
+}
+
+
+/*Below is all the styles for the Gridview_Employees gridview*/
+/*********************************************************************************************************************************************************************************************/
+#GridView_Employees {
+    width: 100%;
+    overflow-y: auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    background-color: white;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+    #GridView_Employees tr th,
+    #GridView_Employees tr td {
+        border: 1px solid black;
+        padding: 8px;
+    }
+
+    #GridView_Employees th {
+        background-color: #fdd402;
+    }
+
+.center-gridview {
+    display: flex;
+    justify-content: center;
+}
+
+.scrollable_gridview_Export {
+    max-height: 300px;
+    overflow-y: auto;
+    border: none;
+    padding: 5px;
+}
+
+
+/*Below is all the CSS styles for al the labels and all the messages appearing on the webpage.*/
+/*********************************************************************************************************************************************************************************************/
+
+
+.Label_StartDate {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+
+#Lbl_EndDate {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+#Lbl_PersonnelID {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+}
+
+.message_Container {
+    text-align: center;
+    display: inline-block;
+}
+
+.error-message {
+    background-color: darkred;
+    border: 2px solid #FFDB58;
+    font-weight: bold;
+    padding: 7px 15px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+
+.download-message, download-message1 {
+    background-color: darkgreen;
+    border: 2px solid #FFDB58;
+    font-weight: bold;
+    padding: 7px 15px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.transparent-message {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.downloaded-message {
+    background-color: darkgreen;
+    border: 2px solid #FFDB58;
+    font-weight: bold;
+    padding: 7px 15px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#LabelError {
+    background-color: darkred;
+    border: 2px solid #FFDB58;
+    color: white;
+    font-weight: bold;
+    padding: 5px 6px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 5px;
+}
